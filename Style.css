@@ -1,0 +1,62 @@
+/*RESPOSTA DO REPOSITORIO*/
+body{
+    font-size: 20px;
+    
+}
+#title{
+position: absolute;
+left: 40em;
+}
+
+td {
+    background-color: teal;
+    
+}
+a{
+   color: teal;
+    background-color: silver;
+    line-height: 2em;
+    
+    width: 5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+img{
+    position: relative;
+    height: 60px;
+    left: 10em;
+}
+
+
+
+
+/*DARKMODE TESTE*/
+.claro {
+    background-color: #fff;
+    color: #000;
+}
+
+.escuro {
+    background-color: #222;
+    color: #fff;
+}
+
+
+#mudarFundo {
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    width: 7em;
+    height: 2em;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 128, 128, 0.486);
+    border-radius: 5em 2em 5em 2em;
+    cursor: pointer;
+}
+#mudarFundo:hover {
+background-color: teal;
+transition: all 0.5s ease-in-out;
+}
